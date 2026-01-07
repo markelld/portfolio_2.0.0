@@ -1,0 +1,12 @@
+{
+  "home.hero.title": "I build scalable full-stack applications from idea to production.",
+  "home.services.title": "I can help you with",
+  "home.services.design.heading": "Design",
+  "home.services.design.description": "I design intuitive, user-focused interfaces that turn complex workflows into simple experiences. My goal is clarity, usability, and visual consistency.",
+  "home.services.development.heading": "Development",
+  "home.services.development.description": "I build scalable web applications using React, TypeScript, Ruby on Rails, and GraphQL. I ship clean, maintainable code with performance in mind.",
+  "home.services.consulting.heading": "Consulting",
+  "home.services.consulting.description": "I help teams modernize systems and ship features efficiently. I focus on practical solutions, clear communication, and long-term impact.",
+  "about.heading": "Who am I and a bit of me.",
+  "about.description": "I’m a full-stack software engineer with 3+ years of experience building and scaling web applications in fast-paced startup environments. Before transitioning into tech, I worked in hospitality as a bartender, where I developed strong communication skills and a people-first approach that still shapes how I build software today. My journey into engineering began through self-study and continued at General Assembly’s Full-Stack Engineering Immersive, a 12-week, 400+ hour program focused on hands-on development with modern web technologies. Since then, I’ve shipped production features end-to-end using React, TypeScript, Ruby on Rails, GraphQL, and PostgreSQL—building dashboards, integrations, and reusable component systems that improve user experience, data quality, and development velocity."
+}
