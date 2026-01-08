@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom';
 import useLocale from '../locale/useLocale'
 
 const Home: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [showResume, setShowResume] = useState(false); 
+  const [showResume, setShowResume] = useState(false);
   const { getLocale } = useLocale();
 
   return (
@@ -28,7 +28,15 @@ const Home: React.FC = () => {
         <div className='flex flex-col md:flex-row'>
           <div className="w-full md:w-1/2 flex flex-col justify-center items-center p-4 md:p-8 mt-8">
             <h1 className="text-xl lg:text-2xl font-medium leading-snug mb-8 lg:mb-16 text-center">{getLocale("home.hero.title")}</h1>
-            <button onClick={() => setShowResume(!showResume)} className="bg-primary hover:bg-transparent px-8 py-4 border border-solid border-primary text-white hover:text-primary text-center font-medium rounded-full transition-colors duration-150">View my resume</button>
+            {/* <button onClick={() => setShowResume(!showResume)} className="bg-primary hover:bg-transparent px-8 py-4 border border-solid border-primary text-white hover:text-primary text-center font-medium rounded-full transition-colors duration-150">View my resume</button> */}
+            <a
+              href="/images/resumeMD-12-25.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-primary hover:bg-transparent px-8 py-4 border border-solid border-primary text-white hover:text-primary text-center font-medium rounded-full transition-colors duration-150"
+            >
+              View my resume
+            </a>
           </div>
           <div className='w-full md:w-1/2 flex justify-center items-center p-4 md:p-8 mt-8'>
             <img
@@ -39,11 +47,6 @@ const Home: React.FC = () => {
           </div>
         </div>
       </header>
-      {showResume && (
-        <section className="flex justify-center py-8 bg-bg">
-          <img src="/images/resume.png" alt="Resume" className="max-w-full" />
-        </section>
-      )}
       {/* <section>
         <div className="w-full overflow-hidden flex whitespace-nowrap text-3xl lg:text-4xl font-medium uppercase">
           <div className="animate-marquee">
