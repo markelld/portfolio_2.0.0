@@ -1,5 +1,7 @@
 {
-  "home.hero.title": "I build scalable full-stack applications from idea to production.",
+  "home.hero.title": "I build scalable full-stack applications from idea to production.", 
+  "home.projects.one": "Merchant Onboarding", 
+  "home.projects.one.description": "Automates affiliate merchant onboarding by ingesting a Google Doc intake and programmatically creating advertiser and offer records through browser automation.",
   "home.services.title": "I can help you with",
   "home.services.design.heading": "Design",
   "home.services.design.description": "I design intuitive, user-focused interfaces that turn complex workflows into simple experiences. My goal is clarity, usability, and visual consistency.",

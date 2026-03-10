@@ -40,7 +40,7 @@ const Home: React.FC = () => {
           </div>
         </div>
       </header>
-      {/* <section>
+      <section>
         <div className="w-full overflow-hidden flex whitespace-nowrap text-3xl lg:text-4xl font-medium uppercase">
           <div className="animate-marquee">
             <span className="ml-10">Featured projects</span>
@@ -57,16 +57,16 @@ const Home: React.FC = () => {
             <span className="ml-10">Featured projects</span>
           </div>
         </div>
-        <div className="container grid grid-cols-12 gap-8">
-          <div className="col-span-12 md:col-span-6">
-            <Link to="/case-study" className="block relative mb-16 mt-32">
+        {/* <div className="flex">
+          <div className="flex">
+            <Link to="/case-study" className="mb-16 mt-32">
               <img className="relative -z-10" src="/images/work_thumbnail_1.jpg" alt="" />
               <div className="bg-white w-10/12 pt-4 pr-4 -mt-24">
                 <p>Salonat</p>
                 <h3 className="text-lg lg:text-xl font-medium">Premium furniture eCommerce website</h3>
               </div>
             </Link>
-            <Link to="/case-study" className="block relative mb-16">
+            <Link to="/case-study" className="mb-16">
               <img className="relative -z-10" src="/images/work_thumbnail_2.jpg" alt="" />
               <div className="bg-white w-10/12 pt-4 pr-4 -mt-24">
                 <p>Zajil</p>
@@ -74,32 +74,40 @@ const Home: React.FC = () => {
               </div>
             </Link>
           </div>
-          <div className="col-span-12 md:col-span-6">
-            <Link to="/case-study" className="block relative mb-16">
+          <div className="flex">
+            <Link to="/case-study" className="mb-16">
               <img className="relative -z-10" src="/images/work_thumbnail_3.jpg" alt="" />
               <div className="bg-white w-10/12 pt-4 pr-4 -mt-24">
                 <p>JD</p>
                 <h3 className="text-lg lg:text-xl font-medium">Portfolio website for an independent designer</h3>
               </div>
             </Link>
-            <Link to="/case-study" className="block relative mb-16">
+            <Link to="/case-study" className="mb-16">
               <img className="relative -z-10" src="/images/work_thumbnail_4.jpg" alt="" />
               <div className="bg-white w-10/12 pt-4 pr-4 -mt-24">
                 <p>Bayt Property</p>
                 <h3 className="text-lg lg:text-xl font-medium">Real estate services company website</h3>
               </div>
             </Link>
-            <div className="flex">
-              <Link className="flex items-center font-medium ml-auto" to="/work">
-                See all works
-                <svg className="ml-4" width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fillRule="evenodd" clipRule="evenodd" d="M7.29289 9.00008L0 1.70718L1.41421 0.292969L10.1213 9.00008L1.41421 17.7072L0 16.293L7.29289 9.00008Z" fill="black"/>
-                </svg>
-              </Link>
-            </div>
           </div>
+        </div> */}
+      </section>
+      <section className="pt-16 lg:pt-32 pb-16 lg:pb-40">
+        <div className="container relative grid grid-cols-12 gap-8">
+          <div className="col-span-12 md:col-span-4 border border-default rounded-base p-12 min-h-[600px]">
+            <h3 className="text-lg lg:text-xl font-medium mb-4 mt-6">{getLocale('home.projects.one')}</h3>
+            <p className='m-6'>{getLocale('home.projects.one.description')}</p>
+          </div>
+          {/* <div className="col-span-12 md:col-span-4">
+            <h3 className="text-lg lg:text-xl font-medium mb-4">{getLocale('home.services.development.heading')}</h3>
+            <p>{getLocale('home.services.development.description')}</p>
+          </div>
+          <div className="col-span-12 md:col-span-4">
+            <h3 className="text-lg lg:text-xl font-medium mb-4">{getLocale('home.services.consulting.heading')}</h3>
+            <p>{getLocale('home.services.consulting.description')}</p>
+          </div> */}
         </div>
-      </section> */}
+      </section>
       <section className="pt-16 lg:pt-28 pb-20 lg:pb-40">
         <div className="container relative grid grid-cols-12 gap-8">
           <h2 className="text-xl lg:text-2xl font-medium col-span-12 lg:col-span-6 mb-12">{getLocale('home.services.title')}</h2>
