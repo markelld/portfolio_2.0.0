@@ -92,20 +92,35 @@ const Home: React.FC = () => {
           </div>
         </div> */}
       </section>
-      <section className="pt-16 lg:pt-32 pb-16 lg:pb-40">
+      <section className="pt-8 pb-8">
         <div className="container relative grid grid-cols-12 gap-8">
-          <div className="col-span-12 md:col-span-4 border border-default rounded-base p-12 min-h-[600px]">
-            <h3 className="text-lg lg:text-xl font-medium mb-4 mt-6">{getLocale('home.projects.one')}</h3>
-            <p className='m-6'>{getLocale('home.projects.one.description')}</p>
-          </div>
-          {/* <div className="col-span-12 md:col-span-4">
-            <h3 className="text-lg lg:text-xl font-medium mb-4">{getLocale('home.services.development.heading')}</h3>
-            <p>{getLocale('home.services.development.description')}</p>
-          </div>
-          <div className="col-span-12 md:col-span-4">
-            <h3 className="text-lg lg:text-xl font-medium mb-4">{getLocale('home.services.consulting.heading')}</h3>
-            <p>{getLocale('home.services.consulting.description')}</p>
-          </div> */}
+          <a href="https://github.com/markelld/session-ifvg-indicator" target="_blank" rel="noopener noreferrer" className="col-span-12 md:col-span-4 bg-neutral-primary-soft block border border-default rounded-2xl shadow-xs hover:bg-neutral-secondary-medium">
+            <div className="m-4">
+              <img src="/images/merchant-intake.png" alt="Merchant Intake project screenshot" className="w-full h-64 rounded-base object-cover" />
+            </div>
+            <div className="px-4 pb-4">
+              <h5 className="mb-2 text-lg font-semibold tracking-tight text-heading leading-6">{getLocale('home.projects.one')}</h5>
+              <p className="text-sm text-body">{getLocale('home.projects.one.description')}</p>
+            </div>
+          </a>
+          <a href="https://zone-frontend.onrender.com/" target="_blank" rel="noopener noreferrer" className="col-span-12 md:col-span-4 bg-neutral-primary-soft block border border-default rounded-2xl shadow-xs hover:bg-neutral-secondary-medium">
+            <div className="m-4">
+              <img src="/images/zone.png" alt="Zone project screenshot" className="w-full h-64 rounded-xl object-cover" />
+            </div>
+            <div className="px-4 pb-4">
+              <h5 className="mb-2 text-lg font-semibold tracking-tight text-heading leading-6">{getLocale('home.projects.two')}</h5>
+              <p className="text-sm text-body">{getLocale('home.projects.two.description')}</p>
+            </div>
+          </a>
+          <a href="https://github.com/markelld/session-ifvg-indicator" target="_blank" rel="noopener noreferrer" className="col-span-12 md:col-span-4 bg-neutral-primary-soft block border border-default rounded-2xl shadow-xs hover:bg-neutral-secondary-medium">
+            <div className="m-4">
+              <img src="/images/atm-indicator.png" alt="ATM Indicator screenshot" className="w-full h-64 rounded-xl object-cover" />
+            </div>
+            <div className="px-4 pb-4">
+              <h5 className="mb-2 text-lg font-semibold tracking-tight text-heading leading-6">{getLocale('home.projects.three')}</h5>
+              <p className="text-sm text-body">{getLocale('home.projects.three.description')}</p>
+            </div>
+          </a>
         </div>
       </section>
       <section className="pt-16 lg:pt-28 pb-20 lg:pb-40">

@@ -560,53 +560,32 @@ video {
   right: 1rem;
 }
 
-.top-8 {
-  top: 2rem;
-}
-
-.-right-2 {
-  right: -0.5rem;
-}
-
 .z-50 {
   z-index: 50;
-}
-
-.z-10 {
-  z-index: 10;
-}
-
-.z-0 {
-  z-index: 0;
 }
 
 .-z-10 {
   z-index: -10;
 }
 
-.col-span-12 {
-  grid-column: span 12 / span 12;
-}
-
 .col-span-full {
   grid-column: 1 / -1;
+}
+
+.col-span-12 {
+  grid-column: span 12 / span 12;
 }
 
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
 
-.col-span-6 {
-  grid-column: span 6 / span 6;
-}
-
 .col-start-1 {
   grid-column-start: 1;
 }
 
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+.m-4 {
+  margin: 1rem;
 }
 
 .mt-8 {
@@ -619,10 +598,6 @@ video {
 
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
 }
 
 .mb-16 {
@@ -649,8 +624,8 @@ video {
   margin-top: -6rem;
 }
 
-.ml-auto {
-  margin-left: auto;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .mb-12 {
@@ -677,16 +652,16 @@ video {
   display: none;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .h-64 {
   height: 16rem;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-10 {
-  width: 2.5rem;
 }
 
 .w-10\/12 {
@@ -697,12 +672,8 @@ video {
   max-width: 24rem;
 }
 
-.max-w-md {
-  max-width: 28rem;
-}
-
-.flex-auto {
-  flex: 1 1 auto;
+.max-w-full {
+  max-width: 100%;
 }
 
 .translate-x-full {
@@ -771,20 +742,12 @@ video {
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
-.self-start {
-  align-self: flex-start;
-}
-
 .self-center {
   align-self: center;
 }
 
 .overflow-hidden {
   overflow: hidden;
-}
-
-.overflow-x-hidden {
-  overflow-x: hidden;
 }
 
 .whitespace-nowrap {
@@ -795,12 +758,16 @@ video {
   border-radius: 9999px;
 }
 
-.border {
-  border-width: 1px;
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
-.border-b {
-  border-bottom-width: 1px;
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-b-2 {
@@ -809,11 +776,6 @@ video {
 
 .border-solid {
   border-style: solid;
-}
-
-.border-gray-400 {
-  --tw-border-opacity: 1;
-  border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
 .border-primary {
@@ -841,16 +803,13 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-cover {
-  background-size: cover;
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.bg-center {
-  background-position: center;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
+.p-4 {
+  padding: 1rem;
 }
 
 .px-16 {
@@ -868,45 +827,37 @@ video {
   padding-right: 2rem;
 }
 
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .pt-10 {
   padding-top: 2.5rem;
 }
 
-.pt-8 {
-  padding-top: 2rem;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
 .pb-16 {
   padding-bottom: 4rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
 }
 
 .pt-24 {
   padding-top: 6rem;
 }
 
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
 .pl-8 {
   padding-left: 2rem;
 }
 
-.pb-0 {
-  padding-bottom: 0px;
+.pt-8 {
+  padding-top: 2rem;
 }
 
-.pt-16 {
-  padding-top: 4rem;
+.pb-0 {
+  padding-bottom: 0px;
 }
 
 .pt-4 {
@@ -915,6 +866,14 @@ video {
 
 .pr-4 {
   padding-right: 1rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .pb-20 {
@@ -929,12 +888,12 @@ video {
   font-size: 31.99px;
 }
 
-.text-lg {
-  font-size: 22.62px;
-}
-
 .text-2xl {
   font-size: 45.23px;
+}
+
+.text-lg {
+  font-size: 22.62px;
 }
 
 .text-base {
@@ -955,6 +914,10 @@ video {
   font-weight: 500;
 }
 
+.font-semibold {
+  font-weight: 600;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -967,13 +930,17 @@ video {
   line-height: 1.375;
 }
 
+.leading-6 {
+  line-height: 1.5rem;
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.underline {
-  text-decoration-line: underline;
 }
 
 .no-underline {
@@ -1044,24 +1011,12 @@ body {
     grid-column: span 10 / span 10;
   }
 
-  .md\:col-span-6 {
-    grid-column: span 6 / span 6;
-  }
-
   .md\:col-span-7 {
     grid-column: span 7 / span 7;
   }
 
   .md\:col-span-4 {
     grid-column: span 4 / span 4;
-  }
-
-  .md\:col-span-12 {
-    grid-column: span 12 / span 12;
-  }
-
-  .md\:col-span-2 {
-    grid-column: span 2 / span 2;
   }
 
   .md\:col-start-2 {
@@ -1080,12 +1035,8 @@ body {
     display: none;
   }
 
-  .md\:max-w-5xl {
-    max-width: 64rem;
-  }
-
-  .md\:grid-cols-8 {
-    grid-template-columns: repeat(8, minmax(0, 1fr));
+  .md\:w-1\/2 {
+    width: 50%;
   }
 
   .md\:flex-row {
@@ -1106,6 +1057,10 @@ body {
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
+  .md\:p-8 {
+    padding: 2rem;
+  }
+
   .md\:pt-28 {
     padding-top: 7rem;
   }
@@ -1113,43 +1068,15 @@ body {
   .md\:text-2xl {
     font-size: 45.23px;
   }
-
-  .md\:text-3xl {
-    font-size: 63.96px;
-  }
 }
 
 @media (min-width: 1024px) {
-  .lg\:absolute {
-    position: absolute;
-  }
-
-  .lg\:top-48 {
-    top: 12rem;
-  }
-
-  .lg\:-right-44 {
-    right: -11rem;
-  }
-
-  .lg\:col-span-8 {
-    grid-column: span 8 / span 8;
-  }
-
-  .lg\:col-span-10 {
-    grid-column: span 10 / span 10;
-  }
-
   .lg\:col-span-6 {
     grid-column: span 6 / span 6;
   }
 
-  .lg\:col-span-3 {
-    grid-column: span 3 / span 3;
-  }
-
-  .lg\:col-span-2 {
-    grid-column: span 2 / span 2;
+  .lg\:col-span-8 {
+    grid-column: span 8 / span 8;
   }
 
   .lg\:col-start-4 {
@@ -1172,37 +1099,16 @@ body {
     margin-bottom: 6rem;
   }
 
-  .lg\:mt-20 {
-    margin-top: 5rem;
-  }
-
   .lg\:mb-16 {
     margin-bottom: 4rem;
-  }
-
-  .lg\:h-screen-90 {
-    height: 90vh;
-  }
-
-  .lg\:max-w-full {
-    max-width: 100%;
   }
 
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .lg\:py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-
   .lg\:pt-8 {
     padding-top: 2rem;
-  }
-
-  .lg\:pb-8 {
-    padding-bottom: 2rem;
   }
 
   .lg\:pb-40 {
@@ -1213,14 +1119,6 @@ body {
     padding-bottom: 4rem;
   }
 
-  .lg\:pt-72 {
-    padding-top: 18rem;
-  }
-
-  .lg\:pb-32 {
-    padding-bottom: 8rem;
-  }
-
   .lg\:pt-28 {
     padding-top: 7rem;
   }
@@ -1229,15 +1127,15 @@ body {
     font-size: 63.96px;
   }
 
+  .lg\:text-2xl {
+    font-size: 45.23px;
+  }
+
   .lg\:text-4xl {
     font-size: 90.44px;
   }
 
   .lg\:text-xl {
     font-size: 31.99px;
-  }
-
-  .lg\:text-2xl {
-    font-size: 45.23px;
   }
 }
