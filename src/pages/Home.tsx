@@ -27,7 +27,7 @@ const Home: React.FC = () => {
         <div className='flex flex-col md:flex-row'>
           <div className="w-full md:w-1/2 flex flex-col justify-center items-center p-4 md:p-8 mt-8">
             <h1 className="text-xl lg:text-2xl font-medium leading-snug mb-8 lg:mb-16 text-center">{getLocale("home.hero.title")}</h1>
-            <a href="/images/MarkellDehaney.pdf" target="_blank" rel="noopener noreferrer" className="bg-primary hover:bg-transparent px-8 py-4 border border-solid border-primary text-white hover:text-primary text-center font-medium rounded-full transition-colors duration-150">
+            <a href="/images/MarkellDehaney2026.pdf" target="_blank" rel="noopener noreferrer" className="bg-primary hover:bg-transparent px-8 py-4 border border-solid border-primary text-white hover:text-primary text-center font-medium rounded-full transition-colors duration-150">
               View my resume
             </a>
           </div>
