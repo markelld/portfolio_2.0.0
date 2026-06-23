@@ -94,7 +94,7 @@ const Home: React.FC = () => {
       </section>
       <section className="pt-8 pb-8">
         <div className="container relative grid grid-cols-12 gap-8">
-          <a href="https://github.com/markelld/session-ifvg-indicator" target="_blank" rel="noopener noreferrer" className="col-span-12 md:col-span-4 bg-neutral-primary-soft block border border-default rounded-2xl shadow-xs hover:bg-neutral-secondary-medium">
+          <a href="https://github.com/markelld/merchant_onboarding_automation" target="_blank" rel="noopener noreferrer" className="col-span-12 md:col-span-4 bg-neutral-primary-soft block border border-default rounded-2xl shadow-xs hover:bg-neutral-secondary-medium">
             <div className="m-4">
               <img src="/images/merchant-intake.png" alt="Merchant Intake project screenshot" className="w-full h-64 rounded-base object-cover" />
             </div>
