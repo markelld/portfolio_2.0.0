@@ -103,7 +103,7 @@ const Home: React.FC = () => {
               <p className="text-sm text-body">{getLocale('home.projects.one.description')}</p>
             </div>
           </a>
-          <a href="https://zone-frontend.onrender.com/" target="_blank" rel="noopener noreferrer" className="col-span-12 md:col-span-4 bg-neutral-primary-soft block border border-default rounded-2xl shadow-xs hover:bg-neutral-secondary-medium">
+          <a href="https://zone-frontend-yuy4.onrender.com/" target="_blank" rel="noopener noreferrer" className="col-span-12 md:col-span-4 bg-neutral-primary-soft block border border-default rounded-2xl shadow-xs hover:bg-neutral-secondary-medium">
             <div className="m-4">
               <img src="/images/zone.png" alt="Zone project screenshot" className="w-full h-64 rounded-xl object-cover" />
             </div>
